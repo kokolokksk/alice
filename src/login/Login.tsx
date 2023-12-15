@@ -1,6 +1,5 @@
 // src/pages/Login.tsx
 import React, { useState } from 'react';
-import * as sshpk from 'sshpk';
 
 const Login: React.FC = () => {
   const [publicKey, setPublicKey] = useState<string | null>(null);
